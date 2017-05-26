@@ -1,4 +1,4 @@
-:iphone:&nbsp;_(+30) 6975778899_ &nbsp;&nbsp;&nbsp; :e-mail:&nbsp;_[th.charalampos@gmail.com](mailto:th.charalampos@gmail.com)_   
+Phone:&nbsp;_(+30) 6975778899_ &nbsp;&nbsp;&nbsp; E-mail:&nbsp;_[th.charalampos@gmail.com](mailto:th.charalampos@gmail.com)_   
 _[Github](https://github.com/Recvi)  |  [LinkedIn](https://www.linkedin.com/in/charalampos-thomas-71615512b/) | [chthomas.me](http://chthomas.me)_
 
 ## Objective
