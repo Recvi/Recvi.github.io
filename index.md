@@ -1,14 +1,35 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+# Charalampos Thomas
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+:iphone:&nbsp;_(+30) 6975778899_ &nbsp;&nbsp;&nbsp; :e-mail:&nbsp;_[th.charalampos@gmail.com](mailto:th.charalampos@gmail.com)_   
+_[Github](https://github.com/Recvi)  |  [LinkedIn](https://www.linkedin.com/in/charalampos-thomas-71615512b/) | [chthomas.me](http://chthomas.me)_
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+## Objective
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+## Summary of Qualifications or Specialties
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Technical Profile
+### Programming Languages
+Java, C++/C, Javascript, HTML5, CSS3, Sass, Node.js, MySQL, Bash, CShell
+
+### Frameworks / Libraries
+jQuery, SASS, Twitter Bootstrap, Foundation, Express.js, Wordpress, Smarty, MongoDB
+
+### APIs / Protocols
+AJAX, REST, SOAP, cPanel
+
+### Software / Tools
+Git
+
+### Operating Systems
+Linux (Ubuntu, Debian, CentOS), Windows (XP, 8.1, 10, Server 2003, Server 2012, Server 2016)
+
+### Selected Projects
+* Artificial Intelligence: Backgammon for Android utilizing the Minimax algorithm, Wumpus game using kNN and Naive Bayes algorithms.
+* Distributed Systems: [Map/Reduce distributed suggestion system](https://github.com/SixsquareDSA/DistributedSystems) using using famous points and photos from Android clients.
+* Multimedia Technologies: [Pluginless P2P browser Screensharing](https://github.com/Recvi/WebRTCScreenSharing) based on Google's WebRTC framework, Node.js, Socket.io.
+* C++: Spam Filter, training classifiers for categorizing e-mails
+
+## Education & Certifications
+* Department of Informatics, Athens University of Economics and Business
+
+## Professional Experience
