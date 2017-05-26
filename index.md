@@ -18,11 +18,11 @@ Git, Grunt, Gulp, NPM, Bower, Vim, Sublime Text, Atom
 Linux (Ubuntu, Debian, CentOS), Windows (XP, 8.1, 10, Server 2003, Server 2012, Server 2016)
 
 ## Selected Projects
-* Artificial Intelligence: Backgammon for Android utilizing the Minimax algorithm, Wumpus game using kNN and Naive Bayes algorithms.
-* Distributed Systems: [Map/Reduce distributed suggestion system](https://github.com/SixsquareDSA/DistributedSystems) using using famous points and photos from Android clients.
-* Multimedia Technologies: [Pluginless P2P browser Screensharing](https://github.com/Recvi/WebRTCScreenSharing) based on Google's WebRTC framework, Node.js, Socket.io.
-* [MEAN Magazine](http://paranoidsandroid.github.io/MEAN-magazine/): A MongoDB-Express.js-AngularJs-Node.js online magazine complete with administration panel.
-* C++: Spam Filter, training classifiers for categorizing e-mails
+* _Artificial Intelligence_: Backgammon for Android utilizing the Minimax algorithm, Wumpus game using kNN and Naive Bayes algorithms.
+* _Distributed Systems_: [Map/Reduce distributed suggestion system](https://github.com/SixsquareDSA/DistributedSystems) using using famous points and photos from Android clients.
+* _Multimedia Technologies_: [Pluginless P2P browser Screensharing](https://github.com/Recvi/WebRTCScreenSharing) based on Google's WebRTC framework, Node.js, Socket.io.
+* _[MEAN Magazine](http://paranoidsandroid.github.io/MEAN-magazine/)_: A MongoDB-Express.js-AngularJs-Node.js online magazine complete with administration panel.
+* _C++_: Spam Filter, training classifiers for categorizing e-mails
 
 
 ## Education
