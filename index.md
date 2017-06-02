@@ -1,3 +1,5 @@
+![picture](https://scontent.fath3-2.fna.fbcdn.net/v/t1.0-9/18882105_10212627466272529_2840661796067584131_n.jpg?oh=17b5a10b2bc7a3ad03ed581ef9c6357a&oe=59B59EA5)
+
 Phone:&nbsp;_(+30) 6975778899_ &nbsp;&nbsp;&nbsp; E-mail:&nbsp;_[th.charalampos@gmail.com](mailto:th.charalampos@gmail.com)_   
 _[Github](https://github.com/Recvi)  |  [LinkedIn](https://www.linkedin.com/in/charalampos-thomas-71615512b/) | [chthomas.me](http://chthomas.me)_
 
