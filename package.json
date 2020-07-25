@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "gh-pages": "latest"
-  }
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
