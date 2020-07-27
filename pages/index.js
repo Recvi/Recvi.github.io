@@ -1,10 +1,13 @@
+'use strict'
+
 import Head from 'next/head'
-import { loadJSONData } from '../utils'
+import loadData from '../utils/loadData'
+import Post from '../components/post'
 
 export async function getStaticProps() {
     return {
         props: {
-            data: loadJSONData()
+            data: loadData()
         }
     }
 }
@@ -16,9 +19,13 @@ export default function IndexPage({ data }) {
         <title>Home page</title>
       </Head>
 
-      <h1>Hello my name is {JSON.stringify(data)}</h1>
+      <h1>Hello my name is {data.personalInfo.name}</h1>
 
-      <section> 
+      <section>
+          {
+              data.projects.map(project =>  
+                (<Post title={project.name} key={project.name} />))
+          } 
       </section>
     </main>
   )
