@@ -13,7 +13,7 @@
     "gh-pages": "latest"
   },
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "dev": "NODE_OPTIONS='--inspect' next",
     "build": "next build",
     "preexport": "npm run build",
     "export": "next export",
