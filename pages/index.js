@@ -1,33 +1,41 @@
 import Head from 'next/head'
-
-import Post from '../components/post'
+import fs from 'fs'
+import path from 'path'
 
 export async function getStaticProps() {
-  // fetch list of posts
-  const response = await fetch(
-    'https://jsonplaceholder.typicode.com/posts?_page=1'
-  )
-  const postList = await response.json()
-  return {
-    props: {
-      postList,
-    },
-  }
+    try {
+        const filenames = await fs.promises.readdir(path.join(process.cwd(), 'data'));
+        console.log('DEBUG', filenames);
+        // const data = filenames.map((filename) => {
+        //     const filePath = path.join(postsDirectory, filename);
+        //     const fileContents = fs.readFileSync(filePath, 'utf8');
+
+        //     return {
+        //         filename,
+        //         content: fileContents,
+        //     };
+        // });
+        return {
+            props: {
+                data: {}
+            }
+        }
+    } catch (err) {
+        console.error('Error occured while reading directory:', err); 
+    }
+  
 }
 
-export default function IndexPage({ postList }) {
+export default function IndexPage({ data }) {
   return (
     <main>
       <Head>
         <title>Home page</title>
       </Head>
 
-      <h1>List of posts</h1>
+      <h1>Hello my name is Test</h1>
 
-      <section>
-        {postList.map((post) => (
-          <Post {...post} key={post.id} />
-        ))}
+      <section> 
       </section>
     </main>
   )
