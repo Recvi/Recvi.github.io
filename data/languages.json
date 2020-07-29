@@ -1,0 +1,13 @@
+{
+    "defaultLanguage": "en_GB",
+    "supportedLanguages": [
+        { 
+            "id": "el_GR",
+            "name": "Ελληνικά"
+        },
+        {
+            "id": "en_GB",
+            "name": "English"
+        }
+    ]
+}

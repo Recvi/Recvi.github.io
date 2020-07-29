@@ -19,7 +19,7 @@ export default function IndexPage({ data }) {
         <title>Home page</title>
       </Head>
 
-      <h1>Hello my name is {data.personalInfo.name}</h1>
+      <h1>Hello my name is {data['personal-info'].name}</h1>
 
       <section>
           {
