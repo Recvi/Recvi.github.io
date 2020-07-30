@@ -1,13 +1,13 @@
 'use strict'
 
 import Head from 'next/head'
-import loadData from '../utils/loadData'
+import {loadLocalizedData} from '../utils/loadData'
 import Post from '../components/post'
 
 export async function getStaticProps() {
     return {
         props: {
-            data: loadData()
+            data: loadLocalizedData('el_GR')
         }
     }
 }
