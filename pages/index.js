@@ -6,24 +6,22 @@ import Post from '../components/post'
 
 export async function getStaticProps() {
     return {
-        props: {
-            data: loadLocalizedData('el_GR')
-        }
+        props: loadLocalizedData('en_GB')
     }
 }
 
-export default function IndexPage({ data }) {
+export default function IndexPage({ personal_info, languages, projects }) {
   return (
     <main>
       <Head>
         <title>Home page</title>
       </Head>
 
-      <h1>Hello my name is {data['personal-info'].name}</h1>
+      <h1>Hello my name is {personal_info.name}</h1>
 
       <section>
           {
-              data.projects.map(project =>  
+            projects.map(project =>  
                 (<Post title={project.name} key={project.name} />))
           } 
       </section>
