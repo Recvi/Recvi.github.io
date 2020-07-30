@@ -33,17 +33,23 @@ export function loadData() {
 /**
  * Returns json data loaded from only files that have the language requested or those that don't have localization at all.
  * Filename without prefix and localization is used to separate props from different files.
- * 
+ * Assuming json data filenames follow the pattern:
+ *      [propertyName]_[localizationId].json
+ * or non-localized data: 
+ *      [propertyName].json
  */
 export function loadLocalizedData(languageId) {
     const data = {}
     fs.readdirSync(dataDirectory).forEach(filename => {
         const [justName] = filename.split('.')
+        // Case: localized file data
         if (justName.endsWith(languageId)) {
             const [nonLocalizedName] = justName.split('_' + languageId)
             const fileContents = fs.readFileSync(path.join(dataDirectory, filename), 'utf8')
             data[nonLocalizedName] = JSON.parse(fileContents)
-        } else if (!justName.includes('_') && !data.hasOwnProperty(justName)) {
+        }
+        // Case: unlocalized file data 
+        else if (!justName.includes('_') && !data.hasOwnProperty(justName)) {
             const fileContents = fs.readFileSync(path.join(dataDirectory, filename), 'utf8')
             data[justName] = JSON.parse(fileContents)
         }
