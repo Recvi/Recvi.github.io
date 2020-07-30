@@ -1,6 +1,9 @@
 # next.js build output
 .next
 
+# next.js export output folder
+out
+
 # dependency directories
 node_modules
 

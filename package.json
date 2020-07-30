@@ -17,8 +17,8 @@
     "build": "next build",
     "preexport": "npm run build",
     "export": "next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -b master -d out",
     "prestart": "npm run export",
     "start": "serve out"
   }
