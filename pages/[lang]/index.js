@@ -1,8 +1,8 @@
 'use strict'
 
 import Head from 'next/head'
-import {loadLocalizedData} from '../utils/loadData'
-import Post from '../components/post'
+import {loadLocalizedData} from '../../utils/loadData'
+import Post from '../../components/post'
 
 export async function getStaticProps(context) {
     return {
