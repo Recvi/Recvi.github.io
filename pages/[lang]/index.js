@@ -4,9 +4,19 @@ import Head from 'next/head'
 import {loadLocalizedData} from '../utils/loadData'
 import Post from '../components/post'
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
     return {
-        props: loadLocalizedData('en_GB')
+        props: loadLocalizedData(context.params.lang)
+    }
+}
+
+export async function getStaticPaths() {
+    return {
+        paths: [
+            { params: {lang: 'en_GB'} },
+            { params: {lang: 'el_GR'} }
+        ],
+        fallback: false
     };
 }
 

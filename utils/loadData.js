@@ -8,15 +8,17 @@ const dataDirectory = path.join(process.cwd(), 'data');
 /**
  * Returns json data loaded from every file in `dataDirectory` (files are assumed to `.json`).
  * Filename without prefix is used to separate props from different files.
+ * ```javascript
  * ex. {
  *      personalInfo: {
  *          name: "Charalampos"
  *          ...
  *      }
  * }
+ * ```
  * is inside personalInfo.json
  * 
- * Data object is passed to props from `getStaticPros` in index page.
+ * Data object is passed to props from `getStaticProps` in index page.
  * 
  * @returns {Object} data
  */
@@ -33,8 +35,8 @@ export function loadData() {
 /**
  * Returns json data loaded from only files that have the language requested or those that don't have localization at all.
  * Filename without prefix and localization is used to separate props from different files.
- * Assuming json data filenames follow the pattern:
- *      [propertyName]@[localizationId].json
+ * Assuming json data filenames follow the pattern: `[propertyName]@[localizationId].json`
+ * 
  * or non-localized data: 
  *      [propertyName].json
  * Implementation makes sure that even wrong languageId is provided the default data file will be loaded.
